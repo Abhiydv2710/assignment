@@ -1,0 +1,18 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.link{
+    display: block;
+    width: 100%;
+    margin: 11px;
+    padding: 3px;
+    /* border: 2px solid black; */
+    /* border-radius: 7px; */
+    text-align: center;
+}
+img{
+    height: 95vh;
+}

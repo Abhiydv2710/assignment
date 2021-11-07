@@ -1,0 +1,25 @@
+<Html>  
+<head>   
+<title>  
+LOGIN  
+</title>  
+</head>  
+<body bgcolor="Lightskyblue">  
+<br>  
+<br>  
+<form action="login" method="POST">
+{% csrf_token %}  
+   
+    
+Email:  
+<input type="email" id="email" name="email"/> <br>    
+<br> <br>  
+Password:  
+<input type="Password" id="pass" name="pass"> <br>   
+
+<button type="submit" class="btn btn-primary my-3">Log In</button>
+ 
+
+</form>  
+</body>  
+</html>   
